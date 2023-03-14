@@ -26,6 +26,12 @@
         {{ $message }}
     @enderror
 
+    <label for="d">Duration</label>
+    <input type="number" id="d" value="{{$f['duration']}}" name="duration">
+    @error('price')
+        {{ $message }}
+    @enderror
+
 
     <input type="submit" value="send">
 </form>

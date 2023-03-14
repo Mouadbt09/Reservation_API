@@ -38,16 +38,19 @@ class FController extends Controller
         $request->validate([
             'sc'=>'required|min:4',
             'ec'=>'required|min:4',
-            'price'=>'required|integer'
+            'price'=>'required|integer',
+            'duration'=>'required|integer'
 
         ]);
         $sc=$request->input('sc');
         $ec=$request->input('ec');
         $price=$request->input('price');
+        $duration=$request->input('duration');
         $p=new flight();
         $p->Scity=$sc;
         $p->Ecity=$ec;
         $p->price=$price;
+        $p->duration=$duration;
         $p->save();
 
         return back()
@@ -90,11 +93,13 @@ class FController extends Controller
         $request->validate([
             'Scity'=>'required|min:4',
             'Ecity'=>'required|min:4',
-            'price'=>'required|integer'
+            'price'=>'required|integer',
+            'duration'=>'required|integer'
         ]);
         $flight->price = $request->price;
         $flight->Scity = $request->Scity;
         $flight->Ecity = $request->Ecity;
+        $flight->duration = $request->duration;
         $flight->save();
 
 

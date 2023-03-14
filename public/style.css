@@ -9,7 +9,9 @@ h1
 ul{
     list-style: none;
 }
-
+li{
+    list-style: none;
+}
 h2
 {
     text-align: end;
@@ -89,4 +91,10 @@ button{
     color: white;
     padding: 3px;
     border-radius: 4px;
+}
+
+.logout{
+    right: 218px;
+    position: absolute;
+    top: 30px;
 }
