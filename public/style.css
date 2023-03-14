@@ -1,0 +1,92 @@
+h1
+{
+    text-align: start;
+    margin-block: 0px;
+    width: 1000px;
+    margin-inline: auto;
+    height: 40px;
+}
+ul{
+    list-style: none;
+}
+
+h2
+{
+    text-align: end;
+    width: 1000px;
+    margin-inline: auto;
+}
+a{
+    text-decoration: none;
+    color: #4788ff;
+    font-size: 1.3em;
+}
+table
+{
+    text-align: start;
+    margin-block: 0px;
+    width: 1000px;
+    margin-inline: auto;
+}
+.dropdown-item{
+    position: fixed;
+    width: 100px;
+    margin-inline: auto;
+    top: 10px;
+    text-align: end;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+label{
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+
+.log{
+    right: 40px;
+    position: absolute;
+    top: 30px;
+}
+.sign{
+    position: absolute;
+    top: 30px;
+    right: 120px;
+}
+#app{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    max-height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+#app h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+}
+#app h3{
+    font-size: 2.5em;
+    margin: 0px;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    font-size: 1.3em;
+}
+table a{
+    font-size: 1em;
+}
+button{
+    border: none;
+    background-color:#4788ff ;
+    font-size: .9em;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
